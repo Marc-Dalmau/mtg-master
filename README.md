@@ -7,6 +7,7 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 ## One platform. Everything Commander.
 
 - ✓ Commander Deck Builder
+- ✓ Deck-Aware Card Discovery
 - ✓ Deck Analysis and Shareable Verdicts
 - ✓ Natural-Language Card Search
 - ✓ Commander Combo Detection
@@ -28,6 +29,7 @@ MTG Master runs in your browser, so there is no local installation or source che
 | ------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | AI Commander Deck Analyzer      | Evaluate power, bracket fit, consistency, mana, interaction, combos and win conditions | [Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)                                    |
 | AI Commander Deck Builder       | Build a complete deck around a commander, strategy, bracket, budget and collection     | [Build a Commander deck](https://mtgmaster.app/ai-commander-deck-builder)                                       |
+| Deck-Aware Card Discovery       | Find legal nonland cards that fit a saved deck, including collection-owned options      | Open **Discover Cards** from one of your saved decks                                                             |
 | Natural-Language Card Search    | Find cards by describing the effect or role you need                                   | [Learn about natural card search](https://mtgmaster.app/commander-guides/mtg-card-search-by-effect)             |
 | Commander Deck Matchup Analyzer | Compare two decks and understand their specific advantages, risks and pressure points  | [Explore matchup analysis](https://mtgmaster.app/commander-guides/commander-deck-matchup-analyzer)              |
 | Commander Brackets              | Understand Brackets 1–5 and evaluate table fit                                         | [Explore Commander brackets](https://mtgmaster.app/commander-brackets)                                          |
@@ -68,6 +70,7 @@ MTG Master brings those workflows into one Commander platform, keeping your deck
 | Commander workflow        | What stays connected in MTG Master                                                                 |
 | ------------------------- | -------------------------------------------------------------------------------------------------- |
 | Build 100-card decks      | Commander, strategy, legality, bracket, budget, collection, printings and versions                 |
+| Discover fitting cards    | Commander, current deck strategy, functional roles, legality, collection and Wishboard status      |
 | Analyze deck performance  | Power, consistency, mana, interaction, resilience, combos, win conditions and table fit            |
 | Search for Magic cards    | Natural-language intent, exact filters, card data, prices, ownership and Wishboard status          |
 | Discover Commander combos | Combo pieces, results, deck context, bracket impact and Commander Spellbook references             |
@@ -121,6 +124,19 @@ The result is a coherent 100-card list that remains yours to inspect, edit and r
 - Save numbered deck-version snapshots
 - Restore or clone earlier versions without losing your current work
 - Keep analysis history connected to the version that was evaluated
+
+## Deck-Aware Card Discovery
+
+Open **Discover Cards** from a saved Commander or Pauper Commander deck to find cards that fit the list you are already building. MTG Master uses the commander, the deck's current strategy and functional profile, trusted Commander-specific signals and bounded popularity context to rank useful candidates without turning the results into a generic staples list.
+
+- See only legal nonland cards that are not already represented in the deck
+- Browse all recommendations, cards in your collection or cards outside your collection
+- Filter by rarity and compatible color identity
+- See collection and **My Wishboard** indicators directly on card images
+- Review concise reasons explaining why each card fits
+- Add a chosen card explicitly to the Main or Maybe board
+
+Recommendations are suggestions, not automatic upgrades. MTG Master does not claim that a discovered card is strictly better than a card already in the deck, and it never changes the list until you choose an action.
 
 ## Commander Deck Analysis
 
