@@ -1,10 +1,14 @@
-# MTG Master — The All-in-One Commander Deck Builder, Analyzer and Play Platform
+# MTG Master — MTG Commander Deck Builder, EDH Analyzer and Collection Manager
 
-**MTG Master** is a complete Commander platform that combines deckbuilding, deck analysis, collection management, natural-language Magic card search, combo detection, opening-hand simulation, matchup analysis, price tracking and remote Commander play in one connected workspace.
+**MTG Master** is a browser-based Magic: The Gathering Commander (EDH) deck builder, AI deck analyzer and MTG collection manager. Build and tune decks, check Commander bracket fit, search cards by effect, discover combos, test opening hands and play online with friends.
+
+**[Open MTG Master](https://mtgmaster.app)** · **[Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)** · **[Read the Commander brackets guide](docs/commander-brackets.md)**
+
+Feature review: October 1, 2026. Check the app for current availability, allowances and credit prices.
 
 Build complete, legal 100-card Commander decks for casual tables, upgraded precons, optimized Commander, high-power pods and cEDH—or use dedicated **Pauper Commander (PDH)** tools built around that format's own rules.
 
-## One platform. Everything Commander.
+## Commander Tools at a Glance
 
 - ✓ Commander Deck Builder
 - ✓ Deck-Aware Card Discovery
@@ -17,9 +21,25 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 - ✓ Opening Hand Simulator
 - ✓ Commander Deck Matchup Analyzer
 - ✓ Commander Bracket Evaluation
+- ✓ Commander DNA Playstyle Profile
 - ✓ Remote Play Table
 
 > Commander decks are systems, not just card lists. MTG Master helps you understand the whole system before you sit down to play.
+
+## Contents
+
+- [Getting started](#getting-started--no-installation-required)
+- [Deck builder and management](#commander-deck-builder-and-deck-management)
+- [Deck imports and exports](#import-and-export-decklists)
+- [AI deck analysis](#commander-deck-analysis)
+- [Commander brackets and Rule Zero](#commander-brackets-power-level-and-rule-zero)
+- [Collection manager and scanner](#collection-manager-and-card-scanner)
+- [Wishboard](#wishboard)
+- [Opening hands and mana](#opening-hand-simulator-and-mana-analysis)
+- [Matchup analysis](#commander-deck-matchup-analyzer)
+- [Commander DNA](#commander-dna-your-player-style-across-decks)
+- [Online Commander play](#remote-play-table-for-online-commander)
+- [Frequently asked questions](#frequently-asked-questions)
 
 ## Getting Started — No Installation Required
 
@@ -36,6 +56,16 @@ MTG Master runs in your browser, so there is no local installation or source che
 | Opening Hand and Mana Tools     | Simulate hands, mulligans, early mana and color access                                 | [Read the mana and opening-hand guide](https://mtgmaster.app/commander-guides/mana-base-and-opening-hand-guide) |
 | Remote Commander Table          | Play synchronized online games using your saved decks                                  | [Discover Remote Table](https://mtgmaster.app/commander-guides/play-commander-online-mtg-master-remote-table)   |
 | Commander Precons               | Browse and inspect official preconstructed Commander decks                             | [Browse Commander precons](https://mtgmaster.app/public/commander-precons)                                      |
+
+### Example: import, analyze and tune a deck
+
+1. Sign in and open **Decks Library** to paste a text decklist or create a blank deck.
+2. Review the commander, format, imported cards and legality warnings.
+3. Open **Analyze** for strengths, weaknesses and suggested changes, or **Discover Cards** for cards that fit your list.
+4. Compare suggestions with your Collection, add missing cards to Wishboard and test opening hands.
+5. Save a deck version before making further changes, then share the deck or bring it to Remote Table.
+
+Check the displayed credit cost before starting a paid tool. Some AI results take a few minutes.
 
 ## What is MTG Master?
 
@@ -125,6 +155,12 @@ The result is a coherent 100-card list that remains yours to inspect, edit and r
 - Restore or clone earlier versions without losing your current work
 - Keep analysis history connected to the version that was evaluated
 
+### Import and export decklists
+
+Paste a text decklist with quantities and card names into Decks Library. Section headings can identify Commander, Main, Sideboard, Maybe, Cut and Companion; set codes and collector numbers can identify printings. Compatible text copied from ManaBox, Moxfield or Archidekt can be used, but review the commander, unmatched cards and printings after import.
+
+Export a deck as a `.txt` file, copy MTG Master text, or copy ManaBox-compatible text. You can also copy a Cardmarket Wants list for manual paste or download a **Binder Pull List** as a physical-card checklist. Clipboard exports do not connect accounts or place orders. Collection and Wishboard CSV imports are separate from decklist import.
+
 ## Deck-Aware Card Discovery
 
 Open **Discover Cards** from a saved Commander or Pauper Commander deck to find cards that fit the list you are already building. MTG Master uses the commander, the deck's current strategy and functional profile, trusted Commander-specific signals and bounded popularity context to rank useful candidates without turning the results into a generic staples list.
@@ -178,7 +214,7 @@ MTG Master helps evaluate **Commander Brackets 1–5** using signals such as:
 - Game Changers
 - Intended table experience
 
-The platform provides both a general deck assessment and bracket-aware context. The goal is not to replace Rule Zero; it is to make Rule Zero clearer, faster and more useful.
+The platform provides both a general deck assessment and bracket-aware context. Use **Auto** or an owner-selected bracket where available, then discuss the result with your group. Read the [Commander Brackets 1–5 guide](docs/commander-brackets.md) for Game Changer limits, common misconceptions and a practical pregame checklist.
 
 ## Natural-Language Magic Card Database Search
 
@@ -192,7 +228,7 @@ You do not need to know a card's exact name or Oracle wording. Describe what you
 - “token doublers for Commander”
 - “artifact removal I already own”
 
-Natural search works across MTG Master's **Magic: The Gathering card database** and your own collection. It understands card roles, effects, color identity, card type, legality, set, rarity, price and ownership signals, and it can be combined with exact filters for more precise results.
+Natural search works across MTG Master's **Magic: The Gathering card database** and your own collection for supported descriptions of common effects. Combine it with exact filters for color identity, card type, legality, set, rarity, mana value or price. Split complex requests into simpler terms and review the results.
 
 This makes it easier to discover removal, ramp, draw, protection, sacrifice outlets, finishers, combo pieces and meta-specific answers—even when you do not know what to search for by name.
 
@@ -220,14 +256,17 @@ Deckbuilding happens with real cards, real binders and real budgets. MTG Master 
 - Track owned cards and quantities
 - Preserve set, collector number, language and foil information
 - Organize cards into custom folders
-- Import and export collection data with CSV files
+- Import collection CSV files from MTG Master, ManaBox, DragonShield MTG, Moxfield or Archidekt
+- Export all owned cards or a filtered selection as MTG Master CSV
 - Review import history and reverse an import when needed
 - Search the collection with filters or natural language
 - Track alternate printings
 - Mark cards as “To Sell” and manage sale quantities
 - See owned, missing and alternate-printing indicators inside decks
-- Calculate the exact cost to complete a deck
+- Estimate missing-card cost using available prices
 - Prioritize collection-owned cards during deckbuilding and upgrades
+
+CSV imports are one-time transfers. Preview the file before importing; importing it again can add copies again. **Cards to Sell** tracks your inventory and sale quantities; it does not publish marketplace listings.
 
 ### Scan physical Magic cards
 
@@ -246,7 +285,7 @@ Use it for:
 - Missing cards worth monitoring
 - Separating owned cards from planned acquisitions
 
-Instead of losing upgrade ideas in browser tabs, screenshots, notes or chats, keep them in the same workspace where you build and tune.
+Add missing deck printings directly to Wishboard, track quantity, finish, language and condition, and move acquired cards into Collection through the explicit add action. Wishboard supports CSV imports from MTG Master, ManaBox, DragonShield MTG, Moxfield and Archidekt, import history with undo, and export of all wishes or a filtered subset as MTG Master CSV. Copy a Cardmarket Wants list when you are ready to shop; purchases are completed on the retailer's site.
 
 ## Opening Hand Simulator and Mana Analysis
 
@@ -295,11 +334,23 @@ Compare a saved deck against one of your own decks, a followed deck or a public 
 
 The estimated edge is a structural comparison, not a promised win rate. Commander variance, politics, sequencing, pilot decisions and the rest of the pod still matter.
 
+## Commander DNA: Your Player Style Across Decks
+
+**Commander DNA** summarizes your playstyle across your saved Commander library: archetypes, favorite colors, pace, win styles, interaction preferences and optimization patterns. It describes you as a player across decks, rather than evaluating one deck.
+
+- Start with at least **three legal Commander decks with commanders**; the profile uses up to **30 decks**.
+- Pauper Commander decks do not count toward eligibility.
+- Open [Commander DNA](https://mtgmaster.app/profile/commander-dna) after signing in to generate or revisit your profile.
+- Generate a new profile after deck changes to refresh the picture of your style.
+- Keep it private or create a public share link without publishing private decklists.
+
+The first successful profile is free under the current offer. Check the displayed price before generating later profiles.
+
 ## Remote Play Table for Online Commander
 
 **Remote Table** connects your saved decks to a synchronized, player-controlled Commander game room.
 
-- Create private multiplayer rooms
+- Create private rooms for two to four players and invite friends by link or code
 - Select saved Commander or Pauper Commander decks
 - Keep hands and libraries private
 - Share battlefields, graveyards, exile and command zones
@@ -364,6 +415,32 @@ MTG Master is useful for:
 - Remote groups that want deckbuilding and online play in one platform
 
 Whether you play battlecruiser, upgraded casual, optimized Commander, high power, cEDH or PDH, the platform is designed to keep the target environment visible.
+
+## Frequently Asked Questions
+
+### Is MTG Master free to use?
+
+You can browse public resources without signing in. Saved personal tools require an account, and some analyses, builds and extra allowances cost credits. The app displays the current cost before a paid action; check **Credits** for packs, rewards and activity.
+
+### Can I build a Commander deck using only cards I own?
+
+The AI builder offers Collection-based options, including collection-only mode where available. Keep your owned cards and quantities up to date, choose the mode before building and review the finished list.
+
+### Does MTG Master support Pauper Commander?
+
+Yes. Deck management, building, legality checks, evaluation, card discovery and Remote Table recognize Pauper Commander as a separate format. Choose PDH before importing or building. Commander DNA requires regular Commander decks.
+
+### Can I use MTG Master on my phone?
+
+Yes. The catalog and collection adapt to smaller screens, and the scanner supports phone cameras. If your browser offers an Install option, you can add MTG Master like an app. Online features need internet access; Remote Table is intended for a desktop or larger display.
+
+### Which languages are available?
+
+English, Spanish and Catalan are available where supported. Some guides and AI reports offer translations; card text and rulings can fall back to English.
+
+### Is a Commander bracket estimate an official ruling?
+
+No. MTG Master provides analysis to support table discussion. See the [Commander brackets guide](docs/commander-brackets.md) for the distinction between bracket expectations, deck legality and Rule Zero.
 
 ## Explore Commander Resources
 

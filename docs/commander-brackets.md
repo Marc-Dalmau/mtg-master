@@ -1,172 +1,85 @@
-# Commander Brackets Explained
+# Commander Brackets 1–5 Explained: EDH Power Levels and Game Changers
 
-Commander brackets are a structured way to classify **Magic: The Gathering Commander (EDH)** decks based on *intent*, *consistency*, and *table expectations*.
+**Commander brackets** help Magic: The Gathering players discuss the kind of EDH game their decks are built to create. The five categories are Exhibition, Core, Upgraded, Optimized and cEDH. They support the pregame **Rule Zero** conversation; they are not a universal numerical power score. Wizards currently describes the system as optional and in beta. [Official Commander overview](https://magic.wizards.com/en/formats/commander).
 
-They exist to make **Rule 0 conversations easier, faster, and more honest**—not to replace them.
+Reviewed October 1, 2026. This independent MTG Master guide uses Wizards' official overview and the updates linked below. Check those sources for subsequent changes.
 
-Rather than asking “What power level is your deck?”, brackets answer a better question:
+[Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer) · [Explore MTG Master](../README.md) · [Open the app's bracket guide](https://mtgmaster.app/commander-brackets)
 
-> **What kind of game is this deck trying to play, and how reliably does it do so?**
+## Commander Brackets at a Glance
 
----
+| Bracket | Intended experience | Game Changers | Expected turns played before winning or losing |
+| --- | --- | --- | --- |
+| **1 — Exhibition** | Theme and unusual deck ideas first | 0 by default | At least 9 |
+| **2 — Core** | Straightforward, social play with visible threats | 0 | At least 8 |
+| **3 — Upgraded** | Stronger synergy and more effective disruption | Up to 3 | At least 6 |
+| **4 — Optimized** | Fast, consistent high-power play | No bracket limit | At least 4 |
+| **5 — cEDH** | Decks built for the competitive Commander metagame | No bracket limit | Any turn |
 
-## Why Commander Brackets Exist
+Game Changer allowances come from the [official Commander overview](https://magic.wizards.com/en/formats/commander). Intent and turn expectations come from the [October 2025 bracket update](https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-october-21-2025). These are expectations, not automatic turn timers: six turns of play means a finish on someone's seventh turn can fit that expectation.
 
-Traditional numeric power levels (e.g. “7/10”) are vague, subjective, and often misleading.
+## Game Changers, Combos and Other Restrictions
 
-Commander brackets solve this by:
-- Defining **clear intent-based categories**
-- Setting **shared expectations before the game starts**
-- Reducing mismatches caused by hidden combos or speed differences
-- Creating a common language across playgroups, stores, and events
+Game Changers are a designated list of cards, not a label for every strong card. Their permitted counts help establish bracket fit, but counting them alone cannot measure a deck's power. Follow the [official Game Changers reference](https://magic.wizards.com/en/formats/commander#game-changers) rather than relying on a permanently copied list.
 
-Brackets are not about judging decks—they are about **aligning experiences**.
+The baseline bracket framework excludes mass land denial from Brackets 1–3. Brackets 1–2 exclude intentional two-card infinite combos. Bracket 1 excludes extra-turn cards; Brackets 2–3 should not chain or loop extra turns. Higher brackets still follow Commander legality. See the [foundational bracket definitions](https://magic.wizards.com/en/news/announcements/introducing-commander-brackets-beta), read alongside the later updates.
 
----
+For Bracket 3, a combo that frequently appears early is a poor fit; deliberately holding it until later does not fix the mismatch. Generic tutor restrictions were removed in October 2025, while listed tutors still count as Game Changers. Precons are also no longer automatically assigned to Bracket 2. [October 2025 changes](https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-october-21-2025).
 
-## How Brackets Work
+The February 2026 update added **Farewell** and **Biorhythm** to Game Changers; Biorhythm is legal in Commander again. **Lutri, the Spellchaser** is legal in a deck or as a commander, but remains banned as a companion and is not a Game Changer. The update also reaffirmed that Exhibition can accommodate unusual card-legality choices through explicit table agreement. That is a conversation with your group, not automatic permission from a deck label. [February 2026 bracket update](https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-february-9-2026) · [Commander ban update](https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-february-9-2026).
 
-Each bracket represents a combination of:
-- **Deck intent** (what the deck is trying to do)
-- **Consistency** (how often it does it)
-- **Speed and inevitability**
-- **Use of tutors, combos, and game-warping effects**
+## How to Check Your Deck's Bracket with MTG Master
 
-Brackets are **ordinal**, not scores.  
-A higher bracket is not “better”—it simply reflects a different play environment.
+MTG Master combines bracket context with deck analysis. It offers a table-fit estimate, not an official certification.
 
----
+1. **Import or open your deck.** Review its commander, format, card list and legality warnings.
+2. **Review the bracket setting.** Saved Commander decks can use Auto or an owner-selected bracket where the controls are available.
+3. **Inspect Game Changers and combos.** The Combos view shows recognized Commander Spellbook lines, required pieces and outcomes. Detection may not cover every possible combo.
+4. **Run deck analysis.** Review speed, consistency, ramp, tutors, interaction, resilience and win conditions alongside bracket fit.
+5. **Test your plan.** Opening Hand Analysis and the play simulator help inspect mana and early development. Matchup Analysis compares your Commander deck with one selected opponent at a time.
+6. **Save and reassess.** Save a deck version before tuning, use Discover Cards for legal nonland suggestions, and rerun analysis after edits.
 
-## The Five Commander Brackets
+The [AI Commander Deck Builder](https://mtgmaster.app/ai-commander-deck-builder) can use a target bracket alongside budget, strategy and Collection preferences. Inspect the result before bringing it to a table. Check the app for current credit costs.
 
-### Bracket 1 — Exhibition
+**Commander DNA** answers a different question: what play patterns appear across your library? It requires at least three eligible Commander decks and can create a shareable player-style profile. It does not replace the analysis of the particular deck you plan to play. [More about Commander DNA](../README.md#commander-dna-your-player-style-across-decks).
 
-**Intent:** Casual, expressive, and experimental  
-**Games:** Long, swingy, social  
+## A Practical Rule Zero Checklist
 
-Typical characteristics:
-- No infinite combos
-- No extra turns
-- No hard locks or game-ending engines
-- Minimal tutoring
-- Flavor- or theme-first builds
+Before shuffling, explain:
 
-Common use cases:
-- New players
-- Theme decks
-- Teaching Commander
-- Social or narrative-focused games
+- Your commander and main game plan.
+- Your proposed bracket and why you chose it.
+- Your fastest realistic win and how often it happens.
+- Game Changers, combo lines, extra turns and resource-denial plans.
+- Any unusual card choices or house rules needing agreement.
 
----
+For example: “This deck builds a token board and usually wins through combat. Here are its Game Changers and detected combos. Does its speed fit the game everyone wants?” Use your actual deck and test results rather than a memorized power number.
 
-### Bracket 2 — Core
+For an online session, discuss those expectations before starting **Remote Table**. MTG Master supports private two-to-four-player rooms with saved decks; players handle rules decisions themselves.
 
-**Intent:** Precon-level or lightly modified decks  
-**Games:** Slower, interactive, board-focused  
+## Commander Bracket FAQ
 
-Typical characteristics:
-- Mostly preconstructed decks or light upgrades
-- Few tutors, if any
-- No fast combos
-- Win conditions are usually combat-based
-- Games tend to go long
+### Does one Game Changer automatically make my deck high power?
 
-Common use cases:
-- Casual pods
-- Newer playgroups
-- Low-pressure store play
+It changes which default allowances the deck meets, but does not describe the whole deck. Bracket 3 permits up to three; a deck with none can still be too fast or consistent for a lower bracket. Assess the game plan as well as the card list.
 
----
+### Are Bracket 4 and cEDH the same?
 
-### Bracket 3 — Upgraded
+No. Bracket 4 describes high-power play; Bracket 5 specifically targets the cEDH metagame. An expensive or efficient list alone does not establish that competitive purpose.
 
-**Intent:** Optimized casual play  
-**Games:** Focused, consistent, but not explosive  
+### Does selecting a bracket change my cards?
 
-Typical characteristics:
-- Clear game plan and archetype
-- Some tutors or synergy engines
-- Limited number of high-impact cards
-- Combos may exist, but are slow or fragile
-- Increased consistency without full optimization
+Treat the setting as context for review. Use deck editing and Discover Cards actions to make changes, then analyze the revised list.
 
-Common use cases:
-- Regular playgroups
-- Tuned personal decks
-- Casual competitive environments
+### Does this guide apply to Pauper Commander?
 
----
+This guide covers regular Commander. MTG Master supports Pauper Commander as a separate format with its own construction and commander-eligibility rules. Select the correct format before building or evaluating a PDH deck.
 
-### Bracket 4 — Optimized
+## Related Commander Tools and Guides
 
-**Intent:** High-power Commander  
-**Games:** Fast, efficient, and decisive  
+- [MTG Master features, imports and collection tools](../README.md)
+- [How to evaluate a Commander deck](https://mtgmaster.app/commander-guides/how-to-evaluate-commander-deck)
+- [Building a strong Bracket 3 deck](https://mtgmaster.app/commander-guides/how-to-build-a-strong-bracket-3-commander-deck)
+- [Building a high-performing Bracket 4 deck](https://mtgmaster.app/commander-guides/how-to-build-a-high-performing-bracket-4-commander-deck)
 
-Typical characteristics:
-- Strong tutors and redundancy
-- Powerful synergies and compact win conditions
-- Combos are expected and reliable
-- Mana efficiency and interaction are prioritized
-- Minimal “pet cards”
-
-Common use cases:
-- Competitive casual pods
-- High-power LGS metas
-- Players who want tight, skill-testing games
-
----
-
-### Bracket 5 — cEDH
-
-**Intent:** Maximum competitive efficiency  
-**Games:** Fast, technical, and metagame-driven  
-
-Typical characteristics:
-- Fully optimized lists
-- Fast mana and dense interaction
-- Compact, resilient win conditions
-- Heavy use of tutors
-- Decks are built to win, not to express theme
-
-Common use cases:
-- Dedicated cEDH pods
-- Competitive events
-- Players who enjoy high-stakes optimization
-
----
-
-## Important Clarifications
-
-### Brackets Are About Intent, Not Just Cards
-A single powerful card does not automatically raise a deck’s bracket.  
-What matters is **how the deck is built and how consistently it executes its plan**.
-
-### Brackets Do Not Replace Rule 0
-Brackets are a starting point.  
-They make conversations easier, but **exceptions and nuance still matter**.
-
-### Brackets Are Not Moral Judgments
-No bracket is “better” than another.  
-A great Bracket 2 game is not inferior to a Bracket 4 game—they are simply different experiences.
-
----
-
-## How MTG Master Uses Brackets
-
-MTG Master uses commander brackets as a **context layer** for deck analysis.
-
-Brackets help the platform:
-- Evaluate decks relative to their intended environment
-- Avoid misleading comparisons across incompatible playstyles
-- Suggest improvements that respect a deck’s goals
-- Flag inconsistencies between intent and execution
-
-The goal is alignment—not escalation.
-
----
-
-## Final Thought
-
-Commander works best when everyone at the table wants the **same kind of game**.
-
-Brackets provide a shared language to make that happen—clearly, honestly, and without friction.
+MTG Master is an independent fan-built platform, not affiliated with or endorsed by Wizards of the Coast. AI analysis supports player judgment and table discussion.
