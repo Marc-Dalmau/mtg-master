@@ -301,15 +301,24 @@ A deck can look powerful on paper and still produce unreliable games. MTG Master
 - Review early development and commander castability
 - Identify opening-hand bottlenecks
 - Connect failures to practical mana-base changes
-- Generate a benchmark-linked, collection-aware Mana Fix Plan
+- Request an Opening Hand Fix Plan based on the analysis where available
 
-### Mana Base and Color Pressure
+### Mana Sources and Early Readiness
 
-- Compare colored-pip demand with available sources
-- Detect stressed colors and surplus fixing
 - Review land count, curve and mana-value distribution
-- Inspect early-turn requirements
-- Understand whether ramp and fixing arrive at the right time
+- See full source counts for each color, including conditional abilities
+- Check independent color availability on turns one and three, with the estimated share of sampled hands that miss each color
+- Inspect weighted pip demand and where colored or explicit colorless requirements cluster across early turns
+- Review two mana by turn two, three mana by turn three, simultaneous color access, repeated-pip spell costs and commander timing
+- Request a benchmark-linked Mana Fix Plan, with collection-aware options where available
+
+**Source counts describe capabilities.** A dual land counts as one source for each of its colors, while still producing only one mana per tap. Counts overlap and can include sources that require setup or have spending restrictions. Weighted pip demand describes the deck's spells; it is not a target percentage of sources. A land's optional colorless mode does not reduce its colored support, and explicit `{C}` costs require actual colorless mana.
+
+**Color availability is tested independently.** Each color can use a different legal land and ramp sequence from the same sampled hands. With Plains and Forest in hand, either white or green can be available on turn one, but one land play cannot provide both together. Color-access percentages do not need to add up to 100%. Use the simultaneous all-colors and full repeated-pip spell-cost checks to assess a complete payment.
+
+**Early mana readiness** is the lowest measured rate among two mana by turn two, three mana by turn three, individual demanded colors by turn three, and the selected repeated-pip spell by turn three when present. Unmeasured checks are excluded. This score summarizes those checks; it is not the probability of casting every spell in the deck.
+
+Mana Base and Opening Hand Analysis use the same sequencing rules. Estimates account for supported timing and payment restrictions, but use finite samples and a limited search of possible plays. A displayed 100% means no misses were found in that sample. Open **How to read these estimates** and the confidence notes for sample settings, assumptions and card-specific limits, then test the deck yourself. See the [mana base and opening-hand guide](https://mtgmaster.app/commander-guides/mana-base-and-opening-hand-guide) for chart examples and explanations.
 
 ### Goldfish Play Simulator
 
@@ -446,6 +455,7 @@ No. MTG Master provides analysis to support table discussion. See the [Commander
 
 - [MTG Commander Tools](https://mtgmaster.app/mtg-commander-tools)
 - [Commander Guides](https://mtgmaster.app/commander-guides)
+- [Commander Color Identities: Compare All Ten Two-Color Combinations](https://mtgmaster.app/commander-guides/commander-color-identities)
 - [How to Evaluate a Commander Deck](https://mtgmaster.app/commander-guides/how-to-evaluate-commander-deck)
 - [How Many Lands Should a Commander Deck Have?](https://mtgmaster.app/commander-guides/how-many-lands-commander-deck)
 - [How Much Ramp Should a Commander Deck Have?](https://mtgmaster.app/commander-guides/how-much-ramp-commander-deck)
