@@ -195,7 +195,11 @@ The **AI Commander Deck Analyzer** uses structured analysis to evaluate how a de
 
 The output is a readable verdict with strengths, liabilities, scores and actionable recommendations. Reports can be translated, revisited through evaluation history and shared with a public link.
 
-Recommendations are context-aware. A useful upgrade for a Bracket 2 precon is not automatically the right upgrade for a Bracket 4 list, and a collection-first build should not be treated like a deck with unlimited card access.
+General power averages speed, resilience, consistency, interaction and synergy on one 0–10 scale across Commander brackets. The in-bracket score compares that power with the selected bracket’s expected level: around 5 means around that expectation. For example, 8 general / 5 in-bracket describes strong overall power near the selected bracket’s expected level. Neither score certifies compliance with every bracket restriction; review the relevant cards and win lines with your group.
+
+Fresh reports separate draw, card selection, recursion and token production. These role counts are estimates and may miss conditional abilities; creating tokens alone does not establish a winning line. Land and ramp targets depend on curve, color demand, commander abilities and strategy rather than acting as universal failure thresholds. A companion is considered separately from the 100-card deck count.
+
+Recommendations consider the submitted deck and selected bracket. Review suggested cards, current prices and trade-offs before changing your list. Ordinary evaluation has no budget, collection-only or cards-to-keep settings; the AI deck builder offers its own preferences where shown.
 
 ## Commander Brackets, Power Level and Rule Zero
 
