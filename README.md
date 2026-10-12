@@ -4,7 +4,7 @@
 
 **[Open MTG Master](https://mtgmaster.app)** · **[Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)** · **[Read the Commander brackets guide](docs/commander-brackets.md)**
 
-Feature review: October 1, 2026. Check the app for current availability, allowances and credit prices.
+Feature review: October 12, 2026. Check the app for current availability, allowances and credit prices.
 
 Build complete, legal 100-card Commander decks for casual tables, upgraded precons, optimized Commander, high-power pods and cEDH—or use dedicated **Pauper Commander (PDH)** tools built around that format's own rules.
 
@@ -14,7 +14,7 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 - ✓ Deck-Aware Card Discovery
 - ✓ Deck Analysis and Shareable Verdicts
 - ✓ Natural-Language Card Search
-- ✓ Commander Combo Detection
+- ✓ Commander Combo Detection and Possible Combo Upgrades
 - ✓ Collection Manager and Card Scanner
 - ✓ Card Prices and Selling Tools
 - ✓ Wishboard
@@ -32,6 +32,7 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 - [Deck builder and management](#commander-deck-builder-and-deck-management)
 - [Deck imports and exports](#import-and-export-decklists)
 - [AI deck analysis](#commander-deck-analysis)
+- [Detected and possible combos](#commander-combo-detection)
 - [Commander brackets and Rule Zero](#commander-brackets-power-level-and-rule-zero)
 - [Collection manager and scanner](#collection-manager-and-card-scanner)
 - [Wishboard](#wishboard)
@@ -50,6 +51,7 @@ MTG Master runs in your browser, so there is no local installation or source che
 | AI Commander Deck Analyzer      | Evaluate power, bracket fit, consistency, mana, interaction, combos and win conditions | [Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)                                    |
 | AI Commander Deck Builder       | Build a complete deck around a commander, strategy, bracket, budget and collection     | [Build a Commander deck](https://mtgmaster.app/ai-commander-deck-builder)                                       |
 | Deck-Aware Card Discovery       | Find legal nonland cards that fit a saved deck, including collection-owned options      | Open **Discover Cards** from one of your saved decks                                                             |
+| Possible Combo Upgrades        | Find known lines that reuse deck cards and need exactly one or two additions             | Open **New possible combos** below **Combos** in deck detail                                                     |
 | Natural-Language Card Search    | Find cards by describing the effect or role you need                                   | [Learn about natural card search](https://mtgmaster.app/commander-guides/mtg-card-search-by-effect)             |
 | Commander Deck Matchup Analyzer | Compare two decks and understand their specific advantages, risks and pressure points  | [Explore matchup analysis](https://mtgmaster.app/commander-guides/commander-deck-matchup-analyzer)              |
 | Commander Brackets              | Understand Brackets 1–5 and evaluate table fit                                         | [Explore Commander brackets](https://mtgmaster.app/commander-brackets)                                          |
@@ -74,7 +76,7 @@ MTG Master is a Commander-focused deckbuilding, analysis, collection and play pl
 1. Find the right commander and cards.
 2. Build or import a legal deck.
 3. Analyze its structure, power, bracket and table fit.
-4. Detect combos and understand how they affect the game.
+4. Detect complete combos, explore possible additions, and understand how they affect the game.
 5. Test opening hands, mana and early turns.
 6. Compare the deck against a specific opponent.
 7. Tune it around cards you own, your budget and your preferred pod.
@@ -250,6 +252,14 @@ For each detected combo, you can review:
 - The original Commander Spellbook reference
 
 Combo discovery helps prevent accidental pod mismatches, clarifies the deck's real win conditions and reveals synergy packages that may otherwise be easy to miss.
+
+### Find combos missing one or two cards
+
+Open **New possible combos** below **Combos** in deck detail to find known Commander Spellbook lines that reuse your active main-deck cards or commanders. The button counts lines needing exactly **one new card**. Inside, choose **Find combos missing 2 cards** to run a separate search for exactly two additions, and **Show more combos** to browse further results in groups of 20. Several lines can need the same card, so the count describes combos rather than unique upgrades.
+
+Expand a suggestion to review existing pieces, cards to add, commander involvement, outcomes, mana, prerequisites, steps, and the original Spellbook reference. Missing additions must fit your commander’s color identity and Commander or Pauper Commander format. A commander with a known color identity is needed; Maybe, sideboard, cut-zone, and companion-only cards do not count as existing pieces. “Already in deck” describes your list, not whether you own the card in Collection.
+
+The view is available on owned decks, visible public and hidden-by-link decks, enabled precons, and authorized trial previews. Duplicate a public list or precon into your library before applying changes. Browsing suggestions uses no credits and never adds cards, selects cuts, or changes the deck’s current combo count or bracket. Review the setup and your table’s expectations, make edits manually, then rerun analysis. Searches cover imported Spellbook lines; their ordering is a starting point for review, not a guarantee of strategic fit.
 
 ## Collection Manager and Card Scanner
 

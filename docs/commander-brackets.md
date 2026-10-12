@@ -39,6 +39,8 @@ MTG Master combines bracket context with deck analysis. It offers a table-fit es
 5. **Test your plan.** Opening Hand Analysis and the play simulator help inspect mana and early development. Matchup Analysis compares your Commander deck with one selected opponent at a time.
 6. **Save and reassess.** Save a deck version before tuning, use Discover Cards for legal nonland suggestions, and rerun analysis after edits.
 
+**Explore possible combo upgrades separately.** The **New possible combos** button below Combos shows lines needing exactly one new card, with an optional **Find combos missing 2 cards** search. Suggestions respect commander colors and deck format, but do not certify bracket fit. They use no credits and do not change current combo counts or the bracket. Review mana, setup, speed, and table expectations, choose additions and cuts manually, then rerun analysis on the edited deck. Public lists and precons must be duplicated before editing.
+
 The [AI Commander Deck Builder](https://mtgmaster.app/ai-commander-deck-builder) can use a target bracket alongside budget, strategy and Collection preferences. Inspect the result before bringing it to a table. Check the app for current credit costs.
 
 **Commander DNA** answers a different question: what play patterns appear across your library? It requires at least three eligible Commander decks and can create a shareable player-style profile. It does not replace the analysis of the particular deck you plan to play. [More about Commander DNA](../README.md#commander-dna-your-player-style-across-decks).
