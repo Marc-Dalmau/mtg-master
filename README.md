@@ -253,6 +253,8 @@ For each detected combo, you can review:
 
 Combo discovery helps prevent accidental pod mismatches, clarifies the deck's real win conditions and reveals synergy packages that may otherwise be easy to miss.
 
+Read the [Commander combos guide](https://mtgmaster.app/commander-guides/commander-combos-how-to-find-combos-in-your-deck) for a practical walkthrough of detected combos, missing pieces, and choosing additions that fit your deck.
+
 ### Find combos missing one or two cards
 
 Open **New possible combos** below **Combos** in deck detail to find known Commander Spellbook lines that reuse your active main-deck cards or commanders. The button counts lines needing exactly **one new card**. Inside, choose **Find combos missing 2 cards** to run a separate search for exactly two additions, and **Show more combos** to browse further results in groups of 20. Several lines can need the same card, so the count describes combos rather than unique upgrades.
