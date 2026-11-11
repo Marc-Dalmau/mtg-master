@@ -4,7 +4,7 @@
 
 **[Open MTG Master](https://mtgmaster.app)** · **[Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)** · **[Read the Commander brackets guide](docs/commander-brackets.md)**
 
-Feature review: October 12, 2026. Check the app for current availability, allowances and credit prices.
+Feature review: November 11, 2026. Check the app for current availability, allowances and credit prices.
 
 Build complete, legal 100-card Commander decks for casual tables, upgraded precons, optimized Commander, high-power pods and cEDH—or use dedicated **Pauper Commander (PDH)** tools built around that format's own rules.
 
@@ -23,6 +23,7 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 - ✓ Commander Bracket Evaluation
 - ✓ Commander DNA Playstyle Profile
 - ✓ Remote Play Table
+- ✓ Commander Strategy and Deckbuilding Guides
 
 > Commander decks are systems, not just card lists. MTG Master helps you understand the whole system before you sit down to play.
 
@@ -40,16 +41,17 @@ Build complete, legal 100-card Commander decks for casual tables, upgraded preco
 - [Matchup analysis](#commander-deck-matchup-analyzer)
 - [Commander DNA](#commander-dna-your-player-style-across-decks)
 - [Online Commander play](#remote-play-table-for-online-commander)
+- [Commander guides, archetypes and color combinations](#commander-guides-archetypes-and-color-combinations)
 - [Frequently asked questions](#frequently-asked-questions)
 
 ## Getting Started — No Installation Required
 
-MTG Master runs in your browser, so there is no local installation or source checkout required. Visit **[mtgmaster.app](https://mtgmaster.app)** and start with the **Commander Deck Builder** to create a new list, or import an existing deck for analysis.
+Use MTG Master directly in your browser. Visit **[mtgmaster.app](https://mtgmaster.app)** and start with the **Commander Deck Builder** to create a new list, or import an existing deck for analysis.
 
 | Commander tool                  | What it helps you do                                                                   | Open it                                                                                                         |
 | ------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | AI Commander Deck Analyzer      | Evaluate power, bracket fit, consistency, mana, interaction, combos and win conditions | [Analyze a Commander deck](https://mtgmaster.app/ai-commander-deck-analyzer)                                    |
-| AI Commander Deck Builder       | Build a complete deck around a commander, strategy, bracket, budget and collection     | [Build a Commander deck](https://mtgmaster.app/ai-commander-deck-builder)                                       |
+| AI Commander Deck Builder       | Build a complete deck around a commander, strategy, bracket and available card pool    | [Build a Commander deck](https://mtgmaster.app/ai-commander-deck-builder)                                       |
 | Deck-Aware Card Discovery       | Find legal nonland cards that fit a saved deck, including collection-owned options      | Open **Discover Cards** from one of your saved decks                                                             |
 | Possible Combo Upgrades        | Find known lines that reuse deck cards and need exactly one or two additions             | Open **New possible combos** below **Combos** in deck detail                                                     |
 | Natural-Language Card Search    | Find cards by describing the effect or role you need                                   | [Learn about natural card search](https://mtgmaster.app/commander-guides/mtg-card-search-by-effect)             |
@@ -58,6 +60,7 @@ MTG Master runs in your browser, so there is no local installation or source che
 | Opening Hand and Mana Tools     | Simulate hands, mulligans, early mana and color access                                 | [Read the mana and opening-hand guide](https://mtgmaster.app/commander-guides/mana-base-and-opening-hand-guide) |
 | Remote Commander Table          | Play synchronized online games using your saved decks                                  | [Discover Remote Table](https://mtgmaster.app/commander-guides/play-commander-online-mtg-master-remote-table)   |
 | Commander Precons               | Browse and inspect official preconstructed Commander decks                             | [Browse Commander precons](https://mtgmaster.app/public/commander-precons)                                      |
+| Commander Strategy Guides       | Choose colors and archetypes, plan upgrades and learn deckbuilding fundamentals        | [Browse Commander guides](https://mtgmaster.app/commander-guides)                                              |
 
 ### Example: import, analyze and tune a deck
 
@@ -137,12 +140,13 @@ The guided AI Commander Deck Builder can work from your:
 - Commander or Pauper Commander format
 - Archetype and strategy
 - Target Commander bracket
-- Budget and price preferences
 - Owned collection
 - Cards you want to include or avoid
 - Personal constraints and playgroup expectations
 
-The result is a coherent 100-card list that remains yours to inspect, edit and refine. MTG Master guides decisions; it does not silently change your deck.
+Start with a complete 100-card list, then inspect, edit and refine it to suit your playgroup.
+
+Use **Preferences** to describe your favorite strategies, cards you want to play and the kind of game you enjoy.
 
 ### Keep every deck organized
 
@@ -165,7 +169,7 @@ Export a deck as a `.txt` file, copy MTG Master text, or copy ManaBox-compatible
 
 ## Deck-Aware Card Discovery
 
-Open **Discover Cards** from a saved Commander or Pauper Commander deck to find cards that fit the list you are already building. MTG Master uses the commander, the deck's current strategy and functional profile, trusted Commander-specific signals and bounded popularity context to rank useful candidates without turning the results into a generic staples list.
+Open **Discover Cards** from a saved Commander or Pauper Commander deck to find cards that complement your commander and strategy. Explore new ideas, find useful cards you already own and choose the additions that fit your list.
 
 - See only legal nonland cards that are not already represented in the deck
 - Browse all recommendations, cards in your collection or cards outside your collection
@@ -174,11 +178,11 @@ Open **Discover Cards** from a saved Commander or Pauper Commander deck to find 
 - Review concise reasons explaining why each card fits
 - Add a chosen card explicitly to the Main or Maybe board
 
-Recommendations are suggestions, not automatic upgrades. MTG Master does not claim that a discovered card is strictly better than a card already in the deck, and it never changes the list until you choose an action.
+Each recommendation includes a reason to help you decide whether it belongs in your deck. You choose which cards to add.
 
 ## Commander Deck Analysis
 
-The **AI Commander Deck Analyzer** uses structured analysis to evaluate how a deck works as a complete system, not just whether it contains popular cards.
+The **AI Commander Deck Analyzer** helps you understand your deck's strengths, find opportunities to improve it and prepare for the games you want to play.
 
 ### What the analysis reviews
 
@@ -195,13 +199,11 @@ The **AI Commander Deck Analyzer** uses structured analysis to evaluate how a de
 - General power and consistency
 - Fit within the selected Commander bracket
 
-The output is a readable verdict with strengths, liabilities, scores and actionable recommendations. Reports can be translated, revisited through evaluation history and shared with a public link.
+Get a readable verdict with strengths, areas to improve, power scores and practical recommendations. Revisit earlier reports, read available translations and share your analysis with a public link.
 
-General power averages speed, resilience, consistency, interaction and synergy on one 0–10 scale across Commander brackets. The in-bracket score compares that power with the selected bracket’s expected level: around 5 means around that expectation. For example, 8 general / 5 in-bracket describes strong overall power near the selected bracket’s expected level. Neither score certifies compliance with every bracket restriction; review the relevant cards and win lines with your group.
+**General power** gives you an overview of your deck's strength. The **in-bracket score** helps you understand how it fits the bracket you want to play. Read them alongside the verdict to plan upgrades and talk about your deck with your group.
 
-Fresh reports separate draw, card selection, recursion and token production. These role counts are estimates and may miss conditional abilities; creating tokens alone does not establish a winning line. Land and ramp targets depend on curve, color demand, commander abilities and strategy rather than acting as universal failure thresholds. A companion is considered separately from the 100-card deck count.
-
-Recommendations consider the submitted deck and selected bracket. Review suggested cards, current prices and trade-offs before changing your list. Ordinary evaluation has no budget, collection-only or cards-to-keep settings; the AI deck builder offers its own preferences where shown.
+Explore advice on mana, card draw, interaction and win conditions, then choose the changes that support your plan. Compare suggested cards and their prices, try the revised list and run another analysis as your deck evolves.
 
 ## Commander Brackets, Power Level and Rule Zero
 
@@ -257,11 +259,11 @@ Read the [Commander combos guide](https://mtgmaster.app/commander-guides/command
 
 ### Find combos missing one or two cards
 
-Open **New possible combos** below **Combos** in deck detail to find known Commander Spellbook lines that reuse your active main-deck cards or commanders. The button counts lines needing exactly **one new card**. Inside, choose **Find combos missing 2 cards** to run a separate search for exactly two additions, and **Show more combos** to browse further results in groups of 20. Several lines can need the same card, so the count describes combos rather than unique upgrades.
+Open **New possible combos** below **Combos** to explore combinations your deck could complete with **one or two new cards**. Discover new uses for cards you already play and compare possible additions that fit your commander's colors and deck format.
 
-Expand a suggestion to review existing pieces, cards to add, commander involvement, outcomes, mana, prerequisites, steps, and the original Spellbook reference. Missing additions must fit your commander’s color identity and Commander or Pauper Commander format. A commander with a known color identity is needed; Maybe, sideboard, cut-zone, and companion-only cards do not count as existing pieces. “Already in deck” describes your list, not whether you own the card in Collection.
+Expand a suggestion to see the pieces, the cards to add, the setup and the steps to play it. Follow the Commander Spellbook reference for more detail and consider how the combination fits your strategy and playgroup.
 
-The view is available on owned decks, visible public and hidden-by-link decks, enabled precons, and authorized trial previews. Duplicate a public list or precon into your library before applying changes. Browsing suggestions uses no credits and never adds cards, selects cuts, or changes the deck’s current combo count or bracket. Review the setup and your table’s expectations, make edits manually, then rerun analysis. Searches cover imported Spellbook lines; their ordering is a starting point for review, not a guarantee of strategic fit.
+Browse suggestions for free on your decks, public lists and precons. Save a copy of a public deck or precon to your library when you want to try your own changes, then analyze the updated list.
 
 ## Collection Manager and Card Scanner
 
@@ -322,19 +324,15 @@ A deck can look powerful on paper and still produce unreliable games. MTG Master
 ### Mana Sources and Early Readiness
 
 - Review land count, curve and mana-value distribution
-- See full source counts for each color, including conditional abilities
-- Check independent color availability on turns one and three, with the estimated share of sampled hands that miss each color
-- Inspect weighted pip demand and where colored or explicit colorless requirements cluster across early turns
-- Review two mana by turn two, three mana by turn three, simultaneous color access, repeated-pip spell costs and commander timing
-- Request a benchmark-linked Mana Fix Plan, with collection-aware options where available
+- See which colors your lands and other mana sources can produce
+- Check whether your opening hands provide the colors you need
+- Spot demanding mana costs and opportunities to improve color balance
+- Explore early plays and when you can cast your commander
+- Request a Mana Fix Plan, with collection-aware options where available
 
-**Source counts describe capabilities.** A dual land counts as one source for each of its colors, while still producing only one mana per tap. Counts overlap and can include sources that require setup or have spending restrictions. Weighted pip demand describes the deck's spells; it is not a target percentage of sources. A land's optional colorless mode does not reduce its colored support, and explicit `{C}` costs require actual colorless mana.
+Build a mana base that supports the cards you want to play. See where your colors are well supported, identify awkward opening hands and explore ways to make your early turns smoother.
 
-**Color availability is tested independently.** Each color can use a different legal land and ramp sequence from the same sampled hands. With Plains and Forest in hand, either white or green can be available on turn one, but one land play cannot provide both together. Color-access percentages do not need to add up to 100%. Use the simultaneous all-colors and full repeated-pip spell-cost checks to assess a complete payment.
-
-**Early mana readiness** is the lowest measured rate among two mana by turn two, three mana by turn three, individual demanded colors by turn three, and the selected repeated-pip spell by turn three when present. Unmeasured checks are excluded. This score summarizes those checks; it is not the probability of casting every spell in the deck.
-
-Mana Base and Opening Hand Analysis use the same sequencing rules. Estimates account for supported timing and payment restrictions, but use finite samples and a limited search of possible plays. A displayed 100% means no misses were found in that sample. Open **How to read these estimates** and the confidence notes for sample settings, assumptions and card-specific limits, then test the deck yourself. See the [mana base and opening-hand guide](https://mtgmaster.app/commander-guides/mana-base-and-opening-hand-guide) for chart examples and explanations.
+Use the results to choose changes, test new hands and find a balance that feels reliable in play. The [mana base and opening-hand guide](https://mtgmaster.app/commander-guides/mana-base-and-opening-hand-guide) walks through the charts with practical examples.
 
 ### Goldfish Play Simulator
 
@@ -426,6 +424,31 @@ Pauper Commander tools understand uncommon commander selection and common-card d
 
 Start with the **[AI Pauper Commander Deck Builder](https://mtgmaster.app/ai-pauper-commander-deck-builder)** or read **[What is Pauper Commander?](https://mtgmaster.app/commander-guides/what-is-pauper-commander)**.
 
+## Commander Guides, Archetypes and Color Combinations
+
+The public **[Commander Guides library](https://mtgmaster.app/commander-guides)** explains deckbuilding decisions and the tools used to test them. Open **Commander Guides** in the top navigation, or choose it directly after **Collection** in the mobile menu. Browse by topic, search for a strategy, and follow related reading from each article.
+
+### Choose a Commander deck archetype
+
+Start with **[Commander Deck Archetypes Explained](https://mtgmaster.app/commander-guides/commander-deck-archetypes-explained)** to compare 16 main strategies, their strengths, weaknesses and overlapping themes. Each has an individual guide with commander choices, card examples, construction advice and ways to win.
+
+| What you enjoy | Commander archetype guides |
+| --- | --- |
+| Creature armies and combat | [Tokens](https://mtgmaster.app/commander-guides/tokens-commander-deck-guide), [Typal / Tribal](https://mtgmaster.app/commander-guides/typal-tribal-commander-deck-guide), [Aggro](https://mtgmaster.app/commander-guides/aggro-commander-deck-guide), [Voltron](https://mtgmaster.app/commander-guides/voltron-commander-deck-guide) |
+| Sacrifice, recursion and resource engines | [Aristocrats](https://mtgmaster.app/commander-guides/aristocrats-commander-deck-guide), [Reanimator](https://mtgmaster.app/commander-guides/reanimator-commander-deck-guide), [Blink](https://mtgmaster.app/commander-guides/blink-commander-deck-guide), [Landfall](https://mtgmaster.app/commander-guides/landfall-commander-deck-guide) |
+| Spell and permanent synergies | [Spellslinger](https://mtgmaster.app/commander-guides/spellslinger-commander-deck-guide), [Enchantress](https://mtgmaster.app/commander-guides/enchantress-commander-deck-guide), [Artifacts](https://mtgmaster.app/commander-guides/artifacts-commander-deck-guide), [Superfriends](https://mtgmaster.app/commander-guides/superfriends-commander-deck-guide) |
+| Answers, politics and assembled win plans | [Control](https://mtgmaster.app/commander-guides/control-commander-deck-guide), [Stax](https://mtgmaster.app/commander-guides/stax-commander-deck-guide), [Group Hug](https://mtgmaster.app/commander-guides/group-hug-commander-deck-guide), [Combo](https://mtgmaster.app/commander-guides/combo-commander-deck-guide) |
+
+**[Mill Commander Deck Guide](https://mtgmaster.app/commander-guides/mill-commander-deck-guide)** is an additional specialized strategy, linked under **More Commander strategies** in the overview. It covers repeatable mill engines, opposing graveyards, survival and finishing the game after emptying libraries. The main overview remains a comparison of 16 archetypes.
+
+### Find your colors and strengthen the deck
+
+The **[Commander Color Identities guide](https://mtgmaster.app/commander-guides/commander-color-identities)** compares all ten two-color and all ten three-color combinations, with an individual guide for each. Use it alongside the archetype series to choose a commander and a plan you enjoy.
+
+Build the supporting structure with guides to [lands](https://mtgmaster.app/commander-guides/how-many-lands-commander-deck), [ramp](https://mtgmaster.app/commander-guides/how-much-ramp-commander-deck), [card draw](https://mtgmaster.app/commander-guides/how-much-card-draw-commander-deck), [interaction](https://mtgmaster.app/commander-guides/how-much-interaction-commander-deck), [protection](https://mtgmaster.app/commander-guides/how-much-protection-commander-deck) and [win conditions](https://mtgmaster.app/commander-guides/how-many-win-conditions-commander-deck). For an existing list, start with [upgrading a Commander precon](https://mtgmaster.app/commander-guides/how-to-upgrade-a-commander-precon) or the [deck evaluation guide](https://mtgmaster.app/commander-guides/how-to-evaluate-commander-deck).
+
+Public guides are available in English and Spanish, with reading estimates and related articles. Some offer **Listen** for audio narration when available. Use the [Commander bracket guide](docs/commander-brackets.md) to discuss table fit; an archetype alone does not determine a deck's bracket.
+
 ## Who MTG Master Is For
 
 MTG Master is useful for:
@@ -461,7 +484,7 @@ Yes. The catalog and collection adapt to smaller screens, and the scanner suppor
 
 ### Which languages are available?
 
-English, Spanish and Catalan are available where supported. Some guides and AI reports offer translations; card text and rulings can fall back to English.
+Public Commander guides are published in English and Spanish. Check the language selector and individual feature for other supported translations. Card text, rulings and AI reports can fall back to English when a translation is unavailable.
 
 ### Is a Commander bracket estimate an official ruling?
 
@@ -471,7 +494,8 @@ No. MTG Master provides analysis to support table discussion. See the [Commander
 
 - [MTG Commander Tools](https://mtgmaster.app/mtg-commander-tools)
 - [Commander Guides](https://mtgmaster.app/commander-guides)
-- [Commander Color Identities: Compare All Ten Two-Color Combinations](https://mtgmaster.app/commander-guides/commander-color-identities)
+- [Commander Deck Archetypes Explained: Compare 16 Strategies](https://mtgmaster.app/commander-guides/commander-deck-archetypes-explained)
+- [Commander Color Identities: Compare Two- and Three-Color Combinations](https://mtgmaster.app/commander-guides/commander-color-identities)
 - [How to Evaluate a Commander Deck](https://mtgmaster.app/commander-guides/how-to-evaluate-commander-deck)
 - [How Many Lands Should a Commander Deck Have?](https://mtgmaster.app/commander-guides/how-many-lands-commander-deck)
 - [How Much Ramp Should a Commander Deck Have?](https://mtgmaster.app/commander-guides/how-much-ramp-commander-deck)
@@ -479,6 +503,7 @@ No. MTG Master provides analysis to support table discussion. See the [Commander
 - [Why Your Commander Deck Feels Inconsistent](https://mtgmaster.app/commander-guides/why-your-commander-deck-feels-inconsistent)
 - [How to Build a Strong Bracket 3 Commander Deck](https://mtgmaster.app/commander-guides/how-to-build-a-strong-bracket-3-commander-deck)
 - [How to Build a High-Performing Bracket 4 Commander Deck](https://mtgmaster.app/commander-guides/how-to-build-a-high-performing-bracket-4-commander-deck)
+- [How to Build a cEDH Bracket 5 Commander Deck](https://mtgmaster.app/commander-guides/how-to-build-a-cedh-bracket-5-commander-deck)
 - [Playing Commander with Friends](https://mtgmaster.app/commander-guides/playing-commander-with-friends)
 
 ## Product Principles
@@ -490,17 +515,15 @@ No. MTG Master provides analysis to support table discussion. See the [Commander
 - **Collection reality matters:** deckbuilding includes cards, budgets, printings and trade-offs.
 - **Table experience matters:** power, bracket, archetype, playgroup and Rule Zero context belong together.
 
-## AI Use and Limitations
+## Build and Play with Confidence
 
-MTG Master uses AI-assisted deck building, analysis, matchup comparison, natural-language search and recommendations. AI output is guidance—not official rules advice, a tournament ruling or a substitute for testing and player judgment.
+MTG Master's AI tools give you ideas to explore, practical recommendations and a clearer view of your decks. Try suggestions, test your opening hands and bring what you learn to your next game.
 
-Magic is complex, and Commander is especially contextual. Results depend on the current decklist, pilot skill, local meta, threat assessment, sequencing, table politics and playgroup expectations.
+Your playstyle and playgroup shape every Commander deck. Use the guides, analysis and playtesting tools to build something you enjoy and find games that suit your table.
 
 ## Project Status
 
 MTG Master is an actively developed, independent production platform launched in November 2025. Features continue to evolve through real player use and feedback. Remote Table is currently in beta.
-
-This repository is a public reference for the MTG Master project. It explains the platform and improves its discoverability; it is not currently a complete open-source release of the application.
 
 ## Feedback and Support
 
@@ -511,7 +534,3 @@ Found a bug or have a feature idea? Open **Profile → Support and Feedback** in
 MTG Master is an independent fan-built platform and is not affiliated with, endorsed by or sponsored by Wizards of the Coast, Hasbro, Commander Spellbook or any official Magic: The Gathering entity. References to third-party products and services are descriptive; no affiliation or endorsement is implied.
 
 Magic: The Gathering, Commander and related names are trademarks of their respective owners. Third-party card, combo, pricing and marketplace data remain subject to their respective owners and terms.
-
-## License
-
-License information will be added if and when open-source components are published.
